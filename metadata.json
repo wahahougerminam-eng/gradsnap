@@ -1,0 +1,6 @@
+{
+  "name": "Cadre Photo — J'y serai",
+  "description": "Application simple et rapide en 3 étapes pour créer votre visuel personnalisé avec le cadre officiel et la mention « J'y serai ».",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

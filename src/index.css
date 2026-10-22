@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-serif: 'Playfair Display', Georgia, serif;
+    --font-cinzel: 'Cinzel', serif;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
+}
+
+.font-serif-academic {
+  font-family: var(--font-serif);
+}
+
+.font-cinzel-academic {
+  font-family: var(--font-cinzel);
+}
+
+/* Touch gesture canvas helper: prevent browser native bounce/scroll when panning/pinching photo */
+.touch-canvas {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
